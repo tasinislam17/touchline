@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-04T07:18:23.224857+00:00",
+  "sha256": {
+    "reports/current_match_predictions.json": "e8decdbd530353d285718d55a1b2071ebf13a997e23fc9622a231fe25f7a1082",
+    "reports/gw4_validation_predictions.json": "c61dae5665e426238f712cc8ec7a7cf9f1efbbe6d1e5c88495391e4c84c8a811",
+    "reports/current_selection.json": "022d46dbcd7cb0a2257ecac9d24947dcad818ea72d31d26056049763c0bdd90c",
+    "reports/provenance.json": "ccaada0b2b8024719135118d7674c34c84c10593be690c3520fe78a802c0f3f9",
+    "reports/archive_selection.json": "2bf67fe7da5ebdd52efff91d90630e1c20eb3a63ee11cb2be43c860b3eb03ec3",
+    "reports/archive_player_predictions.json": "4efbd73229f120ac53121372f09bbfd5ec4fe4fc99ab96aebb063b41e11e27f8",
+    "reports/diagnostics.json": "215d90634d8ee0b6503b27445c31c8dd053c2caa14b493063c92e5d015f1e479",
+    "reports/current_player_predictions.json": "cc4be0824b2e82e20da13733f9a0638e3985f863554001a96958d4d4c5d09908",
+    "reports/current_results.json": "c780599894e53fb5bbddf34499456420378c5c768f108a5d614d2206bfdfbd16",
+    "reports/next_gameweek_players.json": "20f1b8a71f26b9453d7e63a820c7fdabd261177a68d94300ec7eb112fc3e7a65",
+    "reports/next_gameweek_matches.json": "7c76bd18ebd63769f01dbad89567b563b831ff2b928acf31b61d22d4bf717c6c",
+    "reports/archive_scoring_audit.json": "cc57ad9093881c90216072a4d94e34402cba46e4e355cb09d853e2282f34ee7d",
+    "reports/current_scoring_audit.json": "67f7f6a4b996c7a954bef6a9e315abf8062f95d409873eea8d8003556940e8bb",
+    "reports/archive_results.json": "6289db17cb7f1ae53967cbd45f49c2f58c5aa3e1d0f072af955f49ffebdfcfbe",
+    "reports/archive_match_predictions.json": "314f414db2209cab40d2637683c4636f986f7507ceeac1b48e2e795ebe82de03",
+    "reports/FINDINGS.md": "b9724a616c5bca4da3defcd4c357a9d05d2069aa85965e7d2d69c69cb8e03e01",
+    "models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-10-04T08:06:34.570095+00:00",
+  "gameweek": 6,
+  "deadline_utc": "2026-10-10T10:00:00Z",
+  "season_start_deadline": "2026-08-21T17:30:00Z",
+  "data_snapshot": "data/raw/20261004T074655Z",
+  "availability_observed_at": "2026-10-04T07:46:55+00:00",
+  "availability_snapshot_id": "a158aceb782911820ac7ef35e2d10390c72ecf8a84afc9755f9464329749148b",
+  "data_manifest_sha256": "b05fab29b323cc1f9748a980ce29dbca2b33f3c3f11d3b45473c7cfe4b90fc89",
+  "source_code_sha256": {
+    "models/v3.py": "10df4cf46fd17601ba9b089a9a21d4cc3878b561bf98e868fa21594c74208a46",
+    "run_v3.py": "8034b67ba468efd8e70204bebbb1aae45539c4a12fbb489dd04426b4efca6324",
+    "availability.py": "3022814c7ece0e7c7a4cebe0f74661fafa008f944d65dacae19db9afefef0ecf",
+    "models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec",
+    "run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf"
+  },
+  "files_sha256": {
+    "v2_same_snapshot.json": "9d64a80070330a531660d63eb0700399414844146924e0c9a1e53cec32445516",
+    "availability_only.json": "50f8a7c2073617161e238fa887b6a9fd5079bba5e5b3fac03ad870b8071c0eaf",
+    "v3.json": "d4838d32c3ee42bcd02602d5fc8fa1355f063243e40df88b5bdf97e61c0730e5"
+  },
+  "role": "experimental early prospective forecast; availability mapping not yet calibrated",
+  "policy": {
+    "valid_next_round_percentage": "availability multiplier/cap, not start probability",
+    "unselectable_removed": 0,
+    "unavailable_missing_percentage": 0,
+    "doubtful_missing_percentage": 0.75,
+    "other_missing_percentage": 1,
+    "lineup": "one goalkeeper and ten outfield starter marginals",
+    "infeasible": "raise; never relax injury caps silently",
+    "scorelines": "inherited unchanged from V2; no injury team-strength effect"
+  }
+}

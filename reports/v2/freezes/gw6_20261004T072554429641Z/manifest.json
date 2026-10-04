@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "20261004T072554429641Z",
+  "gameweek": 6,
+  "deadline_utc": "2026-10-10T10:00:00Z",
+  "role": "early pre-deadline research forecast; not final deadline forecast",
+  "data_snapshot": "data/raw/20261004T072107Z",
+  "source_code_sha256": {
+    "models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "run_v2.py": "bbea5bb062db7f39c047f0a2c22c371449b0509f74ce333a42d69fb90cee23b3",
+    "models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec"
+  },
+  "data_manifest_sha256": "7c846ab278354229128a2fe1bf735fb911de2ac05a23ecb1dbac899686f36a9e",
+  "files_sha256": {
+    "selected_v2.json": "84c9b7753253cfad761c9460ad989a2d83cf318585f2f29556dcbeb93d750701",
+    "v1.json": "6f1a1a41de505888d9b079422cfc2f42702dd9e5e72357b4f75d24ea47948d31",
+    "minutes_challenger.json": "40d1e544fdbcc72ed5e87bab04a1b2058c92b6e7a8e808ace103cb8321840251"
+  },
+  "limitations": [
+    "No injury adjustments; statuses are attached for review.",
+    "Historical bonus/action models retained.",
+    "No joint lineup constraint."
+  ]
+}

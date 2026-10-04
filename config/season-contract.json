@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "status": "source metadata only; legality engine deferred to Phase 4",
+  "source": "https://fantasy.premierleague.com/api/bootstrap-static/",
+  "rules_source_fields": ["game_settings", "element_types", "events[].overrides"],
+  "money_unit": "integer tenths of GBP million",
+  "player_identity": "season:player:id",
+  "fixture_identity": "season:fixture:id",
+  "event_identity": "season:event:id",
+  "unknown_event": "null; do not infer a gameweek from kickoff date",
+  "assume_current_price_is_selling_price": false
+}

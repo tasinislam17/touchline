@@ -1,0 +1,192 @@
+[
+  {
+    "gw": 6,
+    "fixture": 51,
+    "home": 1,
+    "away": 13,
+    "home_goals": 1.3212250556124037,
+    "away_goals": 0.9052365245187143,
+    "mode_scoreline": [
+      1,
+      0
+    ],
+    "home_win": 0.46279904795625176,
+    "draw": 0.2810926195769415,
+    "away_win": 0.2561083324668069,
+    "home_cs": 0.4044462123432678,
+    "away_cs": 0.26680824673623094,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 52,
+    "home": 2,
+    "away": 4,
+    "home_goals": 0.9050545001557148,
+    "away_goals": 1.9805024741038544,
+    "mode_scoreline": [
+      0,
+      1
+    ],
+    "home_win": 0.1647771717453828,
+    "draw": 0.21073105873454168,
+    "away_win": 0.6244917695200759,
+    "home_cs": 0.13799987852156223,
+    "away_cs": 0.40451983810807535,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 53,
+    "home": 6,
+    "away": 3,
+    "home_goals": 1.8636800775713582,
+    "away_goals": 1.6189726863337495,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.439292782209872,
+    "draw": 0.2218096359923047,
+    "away_win": 0.33889758179782364,
+    "home_cs": 0.1981021075859943,
+    "away_cs": 0.15510079585554898,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 57,
+    "home": 12,
+    "away": 10,
+    "home_goals": 1.921410452907416,
+    "away_goals": 1.494570759968168,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.47752586148092596,
+    "draw": 0.22084160490049753,
+    "away_win": 0.30163253361857695,
+    "home_cs": 0.2243448818702912,
+    "away_cs": 0.14640032567411768,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 60,
+    "home": 20,
+    "away": 5,
+    "home_goals": 1.6749010985038673,
+    "away_goals": 2.617596811102184,
+    "mode_scoreline": [
+      1,
+      2
+    ],
+    "home_win": 0.2378005051160788,
+    "draw": 0.1818115252492305,
+    "away_win": 0.5803879696346911,
+    "home_cs": 0.0729780322574215,
+    "away_cs": 0.1873267054572539,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 59,
+    "home": 16,
+    "away": 19,
+    "home_goals": 1.9972500600613958,
+    "away_goals": 0.8453662854631517,
+    "mode_scoreline": [
+      1,
+      0
+    ],
+    "home_win": 0.6426326702337178,
+    "draw": 0.20686306929495452,
+    "away_win": 0.15050426047132798,
+    "home_cs": 0.42940004640710894,
+    "away_cs": 0.1357079593206579,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 55,
+    "home": 8,
+    "away": 18,
+    "home_goals": 1.098595733098596,
+    "away_goals": 1.5366145627225958,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.2715550712720742,
+    "draw": 0.2544973136229689,
+    "away_win": 0.4739476151049572,
+    "home_cs": 0.2151081051176572,
+    "away_cs": 0.33333885190218593,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 56,
+    "home": 11,
+    "away": 9,
+    "home_goals": 1.0747566957334163,
+    "away_goals": 1.0465743615926022,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.3583482752228737,
+    "draw": 0.29770836868931927,
+    "away_win": 0.34394335608780724,
+    "home_cs": 0.35113856491077317,
+    "away_cs": 0.34138080460374903,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 58,
+    "home": 14,
+    "away": 15,
+    "home_goals": 1.5614640501560322,
+    "away_goals": 1.5166713829922551,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.3900325675243091,
+    "draw": 0.23940857814083433,
+    "away_win": 0.3705588543348568,
+    "home_cs": 0.21944110803447303,
+    "away_cs": 0.2098286465504012,
+    "actual_home": null,
+    "actual_away": null
+  },
+  {
+    "gw": 6,
+    "fixture": 54,
+    "home": 7,
+    "away": 17,
+    "home_goals": 1.1007697942023276,
+    "away_goals": 1.5987969250772973,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "home_win": 0.26190107925281925,
+    "draw": 0.24900527746109777,
+    "away_win": 0.48909364328608324,
+    "home_cs": 0.20213956080247458,
+    "away_cs": 0.33261494006931536,
+    "actual_home": null,
+    "actual_away": null
+  }
+]

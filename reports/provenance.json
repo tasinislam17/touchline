@@ -1,0 +1,7 @@
+{
+  "current_snapshot": "data/raw/20261004T061721Z",
+  "archive_url": "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv",
+  "archive_sha256": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d",
+  "archive_cutoff": "earliest kickoff minus 24 hours; conservative proxy, not archived deadline",
+  "selection": "current GW4 -> test GW5; archive GW4-12 -> frozen parameters GW13-38"
+}

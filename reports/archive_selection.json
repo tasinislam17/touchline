@@ -1,0 +1,454 @@
+{
+  "validation_gws": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "team_trials": [
+    {
+      "config": {
+        "prior": 2,
+        "xg_weight": 0
+      },
+      "nll": 2.907859839223589
+    },
+    {
+      "config": {
+        "prior": 2,
+        "xg_weight": 0.5
+      },
+      "nll": 2.8414447921131547
+    },
+    {
+      "config": {
+        "prior": 2,
+        "xg_weight": 1
+      },
+      "nll": 2.8527381368868534
+    },
+    {
+      "config": {
+        "prior": 8,
+        "xg_weight": 0
+      },
+      "nll": 2.833039691136442
+    },
+    {
+      "config": {
+        "prior": 8,
+        "xg_weight": 0.5
+      },
+      "nll": 2.824134822643638
+    },
+    {
+      "config": {
+        "prior": 8,
+        "xg_weight": 1
+      },
+      "nll": 2.8402068687738087
+    },
+    {
+      "config": {
+        "prior": 1000000,
+        "xg_weight": 0
+      },
+      "nll": 2.88243104448655
+    },
+    {
+      "config": {
+        "prior": 1000000,
+        "xg_weight": 0.5
+      },
+      "nll": 2.882431430305125
+    },
+    {
+      "config": {
+        "prior": 1000000,
+        "xg_weight": 1
+      },
+      "nll": 2.8824318161301488
+    }
+  ],
+  "player_trials": [
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 0.5,
+      "rmse": 3.181016356060433,
+      "mae": 2.3161632493785858
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 1,
+      "rmse": 3.1053249448987805,
+      "mae": 2.235025055242752
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 0.5,
+      "rmse": 3.154783542301429,
+      "mae": 2.294049674006038
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 1,
+      "rmse": 3.080716893564892,
+      "mae": 2.2019697257591466
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 0.5,
+      "rmse": 3.146907150294434,
+      "mae": 2.2868265992238683
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 1,
+      "rmse": 3.0784036831685535,
+      "mae": 2.1937181748383745
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 0.5,
+      "rmse": 3.177941513307979,
+      "mae": 2.3668682203078237
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 1,
+      "rmse": 3.1328322957738637,
+      "mae": 2.3134853858765805
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 0.5,
+      "rmse": 3.1581797410943975,
+      "mae": 2.3464577190150773
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 1,
+      "rmse": 3.1118589036803854,
+      "mae": 2.2808531662186344
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 0.5,
+      "rmse": 3.152954021899924,
+      "mae": 2.340892981225923
+    },
+    {
+      "config": {
+        "prior": 90,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 1,
+      "rmse": 3.1113066641321776,
+      "mae": 2.2740120391456853
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 0.5,
+      "rmse": 3.1466461131577517,
+      "mae": 2.2970304444807597
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0
+      },
+      "alpha": 1,
+      "rmse": 3.0707486131850703,
+      "mae": 2.2134370278512647
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 0.5,
+      "rmse": 3.134054727949087,
+      "mae": 2.2814843548675188
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 0.75
+      },
+      "alpha": 1,
+      "rmse": 3.0677724410561322,
+      "mae": 2.1905994376053624
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 0,
+      "rmse": 3.3363166531875943,
+      "mae": 2.4377095441839622
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 0.5,
+      "rmse": 3.1301814297011004,
+      "mae": 2.2765171011515366
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 0.65,
+        "xg_weight": 1
+      },
+      "alpha": 1,
+      "rmse": 3.068828138069742,
+      "mae": 2.184663948297983
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 0.5,
+      "rmse": 3.157894812797037,
+      "mae": 2.3556631910816463
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0
+      },
+      "alpha": 1,
+      "rmse": 3.1089058667137497,
+      "mae": 2.2989018268167887
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 0.5,
+      "rmse": 3.145791209953182,
+      "mae": 2.340406338634654
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 0.75
+      },
+      "alpha": 1,
+      "rmse": 3.1020484032377733,
+      "mae": 2.2741340768375067
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 0,
+      "rmse": 3.273501471049117,
+      "mae": 2.4467452895677053
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 0.5,
+      "rmse": 3.1423107806074384,
+      "mae": 2.3355798692890417
+    },
+    {
+      "config": {
+        "prior": 360,
+        "recent": 1.0,
+        "xg_weight": 1
+      },
+      "alpha": 1,
+      "rmse": 3.102726413801064,
+      "mae": 2.2679285088019556
+    }
+  ],
+  "selected_team": {
+    "prior": 8,
+    "xg_weight": 0.5
+  },
+  "selected_player": {
+    "config": {
+      "prior": 360,
+      "recent": 0.65,
+      "xg_weight": 0.75
+    },
+    "alpha": 1,
+    "rmse": 3.0677724410561322,
+    "mae": 2.1905994376053624
+  }
+}

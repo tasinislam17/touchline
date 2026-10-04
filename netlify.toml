@@ -1,0 +1,39 @@
+# Prepared only. Do not connect GitHub/Netlify until the user approves launch.
+[build]
+  command = "pnpm build"
+  publish = "dist"
+[build.environment]
+  NODE_VERSION = "22"
+
+# Only fixed public resources are proxied. Manager routes arrive in Phase 3.
+[[redirects]]
+  from = "/api/fpl/bootstrap"
+  to = "https://fantasy.premierleague.com/api/bootstrap-static/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/fpl/fixtures"
+  to = "https://fantasy.premierleague.com/api/fixtures/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/*"
+  to = "/api-not-found.json"
+  status = 404
+  force = true
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+[[headers]]
+  for = "/data/manifest.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+[[headers]]
+  for = "/data/forecast-*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+# Hash navigation works on static hosting without rewriting API failures into HTML.

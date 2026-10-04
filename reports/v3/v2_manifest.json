@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-10-04T07:46:51.070263+00:00",
+  "sha256": {
+    "reports/v2/current_players.json": "9316b944126fb5d98d0a65f1f9d34806649928470442649945a43e5613aa3cdc",
+    "reports/v2/current_matches.json": "5fc7bb43649902f72d237cbe960eb5462e7064aec47459e76f014bb414f1a27c",
+    "reports/v2/archive_players.json": "b7206fe3eff62fa438e10907f83fb29a496a67fd9e5ed52b89b9856737d8b7cf",
+    "reports/v2/archive_matches.json": "5d68c6714d7450cfc356ff89e8a0038e4a87322a6aea97f2201c7fc34ffc3a3e",
+    "reports/v2/diagnostics.json": "dc321dfd18e398a6e5d1bf6f5accd5cdf3e6cb605b07c0b5c58d392dedc0f59c",
+    "reports/v2/current_results.json": "236f2d01603cf2441e2bf7eee851887f4585987a5141ac46e1eeebd00a55b655",
+    "reports/v2/current_selection_trace.json": "84b3e0c02345072dab2f3e0c9dbe68fa0e56028064253cc0c22e0cfed744586f",
+    "reports/v2/latest_freeze.json": "0665af44ecb4bccb4a8671a003b492efb83aa2a2a9761361680515ceac0a2c3b",
+    "reports/v2/protocol.json": "0f734cb3f035398407d81b56d2564c9bca09505ff116cc02c7dd8d2177c570f9",
+    "reports/v2/FINDINGS.md": "1dfcf90c87d21b1de1aa623caa589a413e0bad90e23be29f64dcfe1bb16acf23",
+    "reports/v2/archive_results.json": "caa2a1b31223dc1a039e32ef1e9400e7b28d234bd2e2e8bdd95c74d05458f82d",
+    "reports/v2/archive_selection_trace.json": "17bd9f8842850a54c6b0fba6a4ac28cc0db60905742981b74dbcd9281eaffd3c",
+    "reports/v2/v1_manifest.json": "c228986944effb008212535446b4caa51c401fad1296d1a2503f26c336a3ce6a",
+    "reports/v2/freezes/gw6_20261004T072554429641Z/selected_v2.json": "84c9b7753253cfad761c9460ad989a2d83cf318585f2f29556dcbeb93d750701",
+    "reports/v2/freezes/gw6_20261004T072554429641Z/v1.json": "6f1a1a41de505888d9b079422cfc2f42702dd9e5e72357b4f75d24ea47948d31",
+    "reports/v2/freezes/gw6_20261004T072554429641Z/manifest.json": "85a7824252cb5263825e49ead03717af99fbf707873f2cc5171d08608e7fdcbe",
+    "reports/v2/freezes/gw6_20261004T072554429641Z/minutes_challenger.json": "40d1e544fdbcc72ed5e87bab04a1b2058c92b6e7a8e808ace103cb8321840251",
+    "reports/v2/freezes/gw6_20261004T073109782166Z/selected_v2.json": "8069554416f869c56ec770e6bf0fd3e7c48459ad773f9b435845734729cba5c9",
+    "reports/v2/freezes/gw6_20261004T073109782166Z/v1.json": "a13f9c734f6e2c755cc2c1935150564ba789f84fd955ab4a6619f8005c921cfb",
+    "reports/v2/freezes/gw6_20261004T073109782166Z/manifest.json": "de19ae4f74ef4098edfb31661eac5ea646bf4cb85fa138cbe43c491e5fd59911",
+    "reports/v2/freezes/gw6_20261004T073109782166Z/minutes_challenger.json": "417093bd6efd3a7453b8efe82891ae251a1b32fea27121b9d66ee22ba58ee70b",
+    "models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf",
+    "score_freeze.py": "b24390f4886a393b4e8d51330e62cf246a79e13961168142312a73fe97b126aa"
+  }
+}

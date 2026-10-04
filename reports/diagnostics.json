@@ -1,0 +1,450 @@
+{
+  "current": {
+    "coverage": {
+      "target_rows": 667,
+      "predicted_rows": 659,
+      "missing_rows": 8,
+      "missing_playing_rows": 1
+    },
+    "position_errors": {
+      "GKP": {
+        "n": 20,
+        "rmse": 3.418222793815012,
+        "bias": -0.9090324348018181
+      },
+      "DEF": {
+        "n": 89,
+        "rmse": 3.306747706842548,
+        "bias": -0.41276169725992984
+      },
+      "MID": {
+        "n": 96,
+        "rmse": 3.1328250763554206,
+        "bias": -0.3327050087312935
+      },
+      "FWD": {
+        "n": 20,
+        "rmse": 4.2637180124039,
+        "bias": -0.48318870034218014
+      }
+    },
+    "minutes_groups": {
+      "minutes_error_under_30": {
+        "n": 167,
+        "points_mae": 2.415189545467317
+      },
+      "minutes_error_at_least_30": {
+        "n": 58,
+        "points_mae": 2.329236929128729
+      }
+    },
+    "calibration": {
+      "p_start": [
+        {
+          "lower": 0,
+          "n": 394,
+          "predicted": 0.06804012827479919,
+          "observed": 0.0532994923857868
+        },
+        {
+          "lower": 0.2,
+          "n": 22,
+          "predicted": 0.31376807162843645,
+          "observed": 0.18181818181818182
+        },
+        {
+          "lower": 0.4,
+          "n": 46,
+          "predicted": 0.5019032873120033,
+          "observed": 0.6304347826086957
+        },
+        {
+          "lower": 0.6,
+          "n": 45,
+          "predicted": 0.7163378323404631,
+          "observed": 0.7777777777777778
+        },
+        {
+          "lower": 0.8,
+          "n": 152,
+          "predicted": 0.8818797087255902,
+          "observed": 0.8618421052631579
+        }
+      ],
+      "p60": [
+        {
+          "lower": 0,
+          "n": 405,
+          "predicted": 0.06473760021926514,
+          "observed": 0.05185185185185185
+        },
+        {
+          "lower": 0.2,
+          "n": 25,
+          "predicted": 0.30908559143460085,
+          "observed": 0.16
+        },
+        {
+          "lower": 0.4,
+          "n": 49,
+          "predicted": 0.49075528794958273,
+          "observed": 0.5102040816326531
+        },
+        {
+          "lower": 0.6,
+          "n": 52,
+          "predicted": 0.7136330359963305,
+          "observed": 0.8461538461538461
+        },
+        {
+          "lower": 0.8,
+          "n": 128,
+          "predicted": 0.8822770293639606,
+          "observed": 0.9140625
+        }
+      ],
+      "p_clean_sheet": [
+        {
+          "lower": 0,
+          "n": 562,
+          "predicted": 0.04611545608706113,
+          "observed": 0.10142348754448399
+        },
+        {
+          "lower": 0.2,
+          "n": 88,
+          "predicted": 0.2678993621900751,
+          "observed": 0.3068181818181818
+        },
+        {
+          "lower": 0.4,
+          "n": 9,
+          "predicted": 0.43857677057472705,
+          "observed": 0.0
+        }
+      ]
+    },
+    "largest_errors": [
+      {
+        "name": "Brobbey",
+        "gw": 5,
+        "forecast": 1.9895099558493663,
+        "actual": 17,
+        "minutes_forecast": 72.20925547352725,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Semenyo",
+        "gw": 5,
+        "forecast": 3.1243667340635906,
+        "actual": 17,
+        "minutes_forecast": 79.33468438313606,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Dasilva",
+        "gw": 5,
+        "forecast": 2.02944982926511,
+        "actual": 15,
+        "minutes_forecast": 79.31166483628809,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Manzambi",
+        "gw": 5,
+        "forecast": 0.6506087112693496,
+        "actual": 13,
+        "minutes_forecast": 14.623352776690972,
+        "minutes_actual": 71
+      },
+      {
+        "name": "Schuster",
+        "gw": 5,
+        "forecast": 3.089977607830612,
+        "actual": 14,
+        "minutes_forecast": 54.76365587988469,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Tarkowski",
+        "gw": 5,
+        "forecast": 4.366589043635427,
+        "actual": 14,
+        "minutes_forecast": 80.68146770760565,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Gro\u00df",
+        "gw": 5,
+        "forecast": 4.397336296364591,
+        "actual": 14,
+        "minutes_forecast": 79.33468438313606,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Hall",
+        "gw": 5,
+        "forecast": 3.4470933112411384,
+        "actual": 13,
+        "minutes_forecast": 80.45316722905271,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Buend\u00eda",
+        "gw": 5,
+        "forecast": 2.733387117898791,
+        "actual": 12,
+        "minutes_forecast": 65.36510981229706,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Rushworth",
+        "gw": 5,
+        "forecast": 2.066284950110159,
+        "actual": 11,
+        "minutes_forecast": 78.72660167939645,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Anthony",
+        "gw": 5,
+        "forecast": 1.8649193842435647,
+        "actual": 10,
+        "minutes_forecast": 47.258511050388115,
+        "minutes_actual": 80
+      },
+      {
+        "name": "Willock",
+        "gw": 5,
+        "forecast": 2.1971773981370593,
+        "actual": 10,
+        "minutes_forecast": 44.20134812287352,
+        "minutes_actual": 86
+      }
+    ]
+  },
+  "archive": {
+    "coverage": {
+      "target_rows": 20929,
+      "predicted_rows": 20829,
+      "missing_rows": 100,
+      "missing_playing_rows": 24
+    },
+    "position_errors": {
+      "GKP": {
+        "n": 524,
+        "rmse": 2.6558570632142477,
+        "bias": -0.18437876330957603
+      },
+      "DEF": {
+        "n": 2140,
+        "rmse": 3.01900839150429,
+        "bias": -0.09049487381904302
+      },
+      "MID": {
+        "n": 2402,
+        "rmse": 2.978767811252429,
+        "bias": -0.18766510531288977
+      },
+      "FWD": {
+        "n": 547,
+        "rmse": 3.477227089247112,
+        "bias": -0.4455076356251094
+      }
+    },
+    "minutes_groups": {
+      "minutes_error_under_30": {
+        "n": 3950,
+        "points_mae": 2.017024974633728
+      },
+      "minutes_error_at_least_30": {
+        "n": 1663,
+        "points_mae": 2.4486703098666625
+      }
+    },
+    "calibration": {
+      "p_start": [
+        {
+          "lower": 0,
+          "n": 13015,
+          "predicted": 0.05368229290986176,
+          "observed": 0.039185555128697654
+        },
+        {
+          "lower": 0.2,
+          "n": 1634,
+          "predicted": 0.30923541538061056,
+          "observed": 0.3372093023255814
+        },
+        {
+          "lower": 0.4,
+          "n": 1567,
+          "predicted": 0.5131033337085509,
+          "observed": 0.5264837268666241
+        },
+        {
+          "lower": 0.6,
+          "n": 1509,
+          "predicted": 0.7068887477119272,
+          "observed": 0.7481776010603048
+        },
+        {
+          "lower": 0.8,
+          "n": 3104,
+          "predicted": 0.8736258033036157,
+          "observed": 0.8672680412371134
+        }
+      ],
+      "p60": [
+        {
+          "lower": 0,
+          "n": 13408,
+          "predicted": 0.05120513036053336,
+          "observed": 0.03930489260143198
+        },
+        {
+          "lower": 0.2,
+          "n": 1699,
+          "predicted": 0.3090324724523029,
+          "observed": 0.32783990582695705
+        },
+        {
+          "lower": 0.4,
+          "n": 1530,
+          "predicted": 0.5143454007480772,
+          "observed": 0.5379084967320261
+        },
+        {
+          "lower": 0.6,
+          "n": 1473,
+          "predicted": 0.7089715540170016,
+          "observed": 0.7433808553971487
+        },
+        {
+          "lower": 0.8,
+          "n": 2719,
+          "predicted": 0.8707330750629028,
+          "observed": 0.8587716072085325
+        }
+      ],
+      "p_clean_sheet": [
+        {
+          "lower": 0,
+          "n": 18389,
+          "predicted": 0.042297666278787976,
+          "observed": 0.04562510196313013
+        },
+        {
+          "lower": 0.2,
+          "n": 2380,
+          "predicted": 0.2629633939603242,
+          "observed": 0.257563025210084
+        },
+        {
+          "lower": 0.4,
+          "n": 60,
+          "predicted": 0.4388924217712237,
+          "observed": 0.5333333333333333
+        }
+      ]
+    },
+    "largest_errors": [
+      {
+        "name": "Keane Lewis-Potter",
+        "gw": 17,
+        "forecast": 1.930681371924348,
+        "actual": 21,
+        "minutes_forecast": 27.611153982792842,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Callum Hudson-Odoi",
+        "gw": 16,
+        "forecast": 1.3722685011483102,
+        "actual": 19,
+        "minutes_forecast": 33.456953052132825,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Kevin Schade",
+        "gw": 18,
+        "forecast": 2.5726304504199846,
+        "actual": 20,
+        "minutes_forecast": 59.50350551782246,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Patrick Dorgu",
+        "gw": 38,
+        "forecast": 0.863728731569266,
+        "actual": 18,
+        "minutes_forecast": 14.245247789907182,
+        "minutes_actual": 61
+      },
+      {
+        "name": "Cole Palmer",
+        "gw": 25,
+        "forecast": 2.9574202710060646,
+        "actual": 20,
+        "minutes_forecast": 58.6169254323954,
+        "minutes_actual": 60
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "gw": 28,
+        "forecast": 1.4743426843323597,
+        "actual": 18,
+        "minutes_forecast": 21.283728639421128,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Konstantinos Mavropanos",
+        "gw": 32,
+        "forecast": 4.6480420965846445,
+        "actual": 21,
+        "minutes_forecast": 69.55203526689309,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "gw": 33,
+        "forecast": 3.9377036743472087,
+        "actual": 20,
+        "minutes_forecast": 75.57839114377894,
+        "minutes_actual": 88
+      },
+      {
+        "name": "Ibrahim Sangar\u00e9",
+        "gw": 16,
+        "forecast": 2.2727340970450163,
+        "actual": 18,
+        "minutes_forecast": 51.68806225462627,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Cristian Romero",
+        "gw": 14,
+        "forecast": 1.656665613680673,
+        "actual": 17,
+        "minutes_forecast": 40.983467613759466,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Taiwo Awoniyi",
+        "gw": 35,
+        "forecast": 0.7547826272137327,
+        "actual": 16,
+        "minutes_forecast": 7.625662584507763,
+        "minutes_actual": 90
+      },
+      {
+        "name": "Malo Gusto",
+        "gw": 16,
+        "forecast": 2.8374318787505413,
+        "actual": 18,
+        "minutes_forecast": 62.60064954409414,
+        "minutes_actual": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,472 @@
+[
+  {
+    "gw": 5,
+    "fixture": 41,
+    "home": 4,
+    "away": 6,
+    "home_goals": 2.109236001774291,
+    "away_goals": 1.5773126882151014,
+    "mode_scoreline": [
+      2,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.08792055055532129
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.08336720071282912
+      },
+      {
+        "home": 2,
+        "away": 2,
+        "probability": 0.0693390999728828
+      },
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.06574807173266023
+      },
+      {
+        "home": 3,
+        "away": 1,
+        "probability": 0.061815063509033395
+      }
+    ],
+    "home_win": 0.5007638827868919,
+    "draw": 0.2095055939337664,
+    "away_win": 0.2897305232793421,
+    "home_cs": 0.2065293619198338,
+    "away_cs": 0.12133062741653157,
+    "actual_home": 3,
+    "actual_away": 0,
+    "nll": 3.2393307668602302
+  },
+  {
+    "gw": 5,
+    "fixture": 48,
+    "home": 19,
+    "away": 2,
+    "home_goals": 0.9390500904266081,
+    "away_goals": 0.8192696952286438,
+    "mode_scoreline": [
+      0,
+      0
+    ],
+    "top_scorelines": [
+      {
+        "home": 0,
+        "away": 0,
+        "probability": 0.17233417905892667
+      },
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.16183042642888038
+      },
+      {
+        "home": 0,
+        "away": 1,
+        "probability": 0.14118817035508538
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1325827641391103
+      },
+      {
+        "home": 2,
+        "away": 0,
+        "probability": 0.07598343828590837
+      }
+    ],
+    "home_win": 0.3666644290594503,
+    "draw": 0.3327049963949086,
+    "away_win": 0.30063057454564124,
+    "home_cs": 0.44075342132436157,
+    "away_cs": 0.3909990727720333,
+    "actual_home": 2,
+    "actual_away": 3,
+    "nll": 4.96702520235901
+  },
+  {
+    "gw": 5,
+    "fixture": 42,
+    "home": 5,
+    "away": 1,
+    "home_goals": 1.3790113056606121,
+    "away_goals": 1.722836035012579,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.10683082687753852
+      },
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.09202599909740689
+      },
+      {
+        "home": 0,
+        "away": 1,
+        "probability": 0.07746914505995398
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.07366045902859863
+      },
+      {
+        "home": 0,
+        "away": 2,
+        "probability": 0.06673331735545274
+      }
+    ],
+    "home_win": 0.30847756487289435,
+    "draw": 0.23473938100887756,
+    "away_win": 0.4567830541182284,
+    "home_cs": 0.1785590294891493,
+    "away_cs": 0.2518274103527047,
+    "actual_home": 3,
+    "actual_away": 0,
+    "nll": 3.9295064182227892
+  },
+  {
+    "gw": 5,
+    "fixture": 43,
+    "home": 9,
+    "away": 12,
+    "home_goals": 1.7931523857994425,
+    "away_goals": 1.2873463384201107,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.10603982516965837
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.09507278274636437
+      },
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.08237086012129044
+      },
+      {
+        "home": 2,
+        "away": 0,
+        "probability": 0.07385175217342207
+      },
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.06825499032943422
+      }
+    ],
+    "home_win": 0.49317213058157844,
+    "draw": 0.23135579111085652,
+    "away_win": 0.27547207830756526,
+    "home_cs": 0.27600222866618396,
+    "away_cs": 0.16643467551443838,
+    "actual_home": 1,
+    "actual_away": 0,
+    "nll": 2.4965235439165636
+  },
+  {
+    "gw": 5,
+    "fixture": 46,
+    "home": 17,
+    "away": 11,
+    "home_goals": 1.1380583695195405,
+    "away_goals": 1.4572948107910477,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.12375546623774296
+      },
+      {
+        "home": 0,
+        "away": 1,
+        "probability": 0.10874263530963653
+      },
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.09017409937764478
+      },
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.08492136616513862
+      },
+      {
+        "home": 0,
+        "away": 2,
+        "probability": 0.07923503907423836
+      }
+    ],
+    "home_win": 0.295378757098938,
+    "draw": 0.26019044268840935,
+    "away_win": 0.4444308002126528,
+    "home_cs": 0.2328653683190349,
+    "away_cs": 0.32044059541514186,
+    "actual_home": 2,
+    "actual_away": 1,
+    "nll": 2.653271261744212
+  },
+  {
+    "gw": 5,
+    "fixture": 47,
+    "home": 18,
+    "away": 7,
+    "home_goals": 1.8964594854554795,
+    "away_goals": 0.6390462092920007,
+    "mode_scoreline": [
+      1,
+      0
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1502406442149254
+      },
+      {
+        "home": 2,
+        "away": 0,
+        "probability": 0.14246264741116865
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.09601071416713623
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.09104021479381019
+      },
+      {
+        "home": 3,
+        "away": 0,
+        "probability": 0.09005821300200341
+      }
+    ],
+    "home_win": 0.6740794336133485,
+    "draw": 0.20855053601449675,
+    "away_win": 0.11737003037215493,
+    "home_cs": 0.5277955905771368,
+    "away_cs": 0.1500991076412275,
+    "actual_home": 0,
+    "actual_away": 1,
+    "nll": 2.983284206955731
+  },
+  {
+    "gw": 5,
+    "fixture": 49,
+    "home": 3,
+    "away": 14,
+    "home_goals": 1.340159948172013,
+    "away_goals": 1.5684022710587633,
+    "mode_scoreline": [
+      1,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.11466782499366607
+      },
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.08992263856871736
+      },
+      {
+        "home": 0,
+        "away": 1,
+        "probability": 0.08556279058337309
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.07683661320025453
+      },
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.07311123371190899
+      }
+    ],
+    "home_win": 0.3264316088041345,
+    "draw": 0.2455632515210735,
+    "away_win": 0.42800513967479237,
+    "home_cs": 0.2083778478498327,
+    "away_cs": 0.26180379019356204,
+    "actual_home": 0,
+    "actual_away": 1,
+    "nll": 2.458504779785862
+  },
+  {
+    "gw": 5,
+    "fixture": 44,
+    "home": 13,
+    "away": 8,
+    "home_goals": 2.4248586836002555,
+    "away_goals": 1.1322485919232543,
+    "mode_scoreline": [
+      2,
+      1
+    ],
+    "top_scorelines": [
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.09494073724939664
+      },
+      {
+        "home": 2,
+        "away": 0,
+        "probability": 0.0838514950927242
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.07830620224716389
+      },
+      {
+        "home": 3,
+        "away": 1,
+        "probability": 0.0767392903822032
+      },
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.06915990252118734
+      }
+    ],
+    "home_win": 0.6583988378920946,
+    "draw": 0.18011964010972337,
+    "away_win": 0.16148152199818214,
+    "home_cs": 0.32230770249398083,
+    "away_cs": 0.08849062333483652,
+    "actual_home": 0,
+    "actual_away": 0,
+    "nll": 3.55710727552351
+  },
+  {
+    "gw": 5,
+    "fixture": 45,
+    "home": 15,
+    "away": 20,
+    "home_goals": 1.7841317716455776,
+    "away_goals": 0.8010369409405751,
+    "mode_scoreline": [
+      1,
+      0
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1344938483546937
+      },
+      {
+        "home": 2,
+        "away": 0,
+        "probability": 0.11997737397024569
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.10773454086136944
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.09610630862720898
+      },
+      {
+        "home": 0,
+        "away": 0,
+        "probability": 0.07538336040652677
+      }
+    ],
+    "home_win": 0.6074650229364138,
+    "draw": 0.22830110780818785,
+    "away_win": 0.16423386925539868,
+    "home_cs": 0.4488632780047673,
+    "away_cs": 0.16794281042907266,
+    "actual_home": 5,
+    "actual_away": 3,
+    "nll": 6.935305095644637
+  },
+  {
+    "gw": 5,
+    "fixture": 50,
+    "home": 10,
+    "away": 16,
+    "home_goals": 1.4182507241910631,
+    "away_goals": 2.034856045516933,
+    "mode_scoreline": [
+      1,
+      2
+    ],
+    "top_scorelines": [
+      {
+        "home": 1,
+        "away": 2,
+        "probability": 0.09292341978252268
+      },
+      {
+        "home": 1,
+        "away": 1,
+        "probability": 0.09133168902758079
+      },
+      {
+        "home": 2,
+        "away": 2,
+        "probability": 0.0658943537004365
+      },
+      {
+        "home": 0,
+        "away": 2,
+        "probability": 0.06551974076059366
+      },
+      {
+        "home": 2,
+        "away": 1,
+        "probability": 0.06476561705247974
+      }
+    ],
+    "home_win": 0.26730911595720686,
+    "draw": 0.21429143298123116,
+    "away_win": 0.5183994510615624,
+    "home_cs": 0.13069929589943471,
+    "away_cs": 0.24213721141352718,
+    "actual_home": 1,
+    "actual_away": 1,
+    "nll": 2.3932574647718945
+  }
+]

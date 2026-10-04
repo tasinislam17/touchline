@@ -1,0 +1,36 @@
+name: Prepare forecast artifact (no deployment)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dugout-forecast-refresh
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install model dependency
+        run: pip install -r requirements.txt
+      - name: Download historical training input
+        run: curl -fL --retry 3 https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv -o data/prior_season.csv
+      - name: Fetch, freeze and validate
+        run: python scripts/refresh.py
+      - name: Verify model and publication contracts
+        run: python -m unittest discover -s tests -v
+      - name: Upload inspectable forecast and run evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: dugout-forecast-${{ github.run_id }}
+          path: |
+            web/public/data/
+            reports/v3/latest_freeze.json
+            reports/v3/freezes/
+            data/raw/
+          retention-days: 7
+# Intentionally no push, pull_request or schedule trigger. No Netlify API/token/build hook.
