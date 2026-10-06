@@ -1,6 +1,6 @@
 # The Dugout — phased development plan
 
-Updated: 4 October 2026. Status: Phases 0–2 authorized and locally implemented; see docs/PHASE_0_FINDINGS.md and docs/DELIVERY_PHASES_0_2.md for verified work and deferred provider checks. No Netlify deployment is connected.
+Updated: 6 October 2026. Status: Phases 0–3 are locally implemented; see docs/PHASE_0_FINDINGS.md, docs/DELIVERY_PHASES_0_2.md and docs/DELIVERY_PHASE_3.md. V4 also completes a bounded portion of Phase 5A/5B, while prospective evidence remains pending. No Netlify deployment is connected.
 
 ## 1. Product commitments
 
@@ -110,6 +110,8 @@ Cost controls: one coherent visual direction; finite model experiment matrices d
 **Exit:** UI can consume a reproducible artifact; failed updates cannot publish partial results; refresh failures are detectable.
 
 ### Phase 3 — official and planning squad state
+
+**Status: locally implemented on 6 October 2026.** Public locked-squad import, explicit missing inputs, per-team planning state, reconciliation, undo/reset, locks/exclusions and export/import are implemented and tested. Transfer legality intentionally remains gated on Phase 4.
 
 **3A — import and reconciliation (M).** Team ID onboarding, latest public locked squad, chip/history context, and last import time. Distinguish a locked squad from pending pre-deadline changes. Ask only for missing current bank, free transfers, actual selling prices and already-made moves. Label estimated versus confirmed values. Do not infer a precise selling price from current price alone.
 

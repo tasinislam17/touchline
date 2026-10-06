@@ -5,7 +5,22 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# Only fixed public resources are proxied. Manager routes arrive in Phase 3.
+# Read-only official FPL endpoints. No credentials or mutation routes.
+[[redirects]]
+  from = "/api/fpl/entry/:entry/event/:event/picks"
+  to = "https://fantasy.premierleague.com/api/entry/:entry/event/:event/picks/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/fpl/entry/:entry/history"
+  to = "https://fantasy.premierleague.com/api/entry/:entry/history/"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/fpl/entry/:entry"
+  to = "https://fantasy.premierleague.com/api/entry/:entry/"
+  status = 200
+  force = true
 [[redirects]]
   from = "/api/fpl/bootstrap"
   to = "https://fantasy.premierleague.com/api/bootstrap-static/"

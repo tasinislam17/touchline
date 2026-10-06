@@ -1,6 +1,6 @@
 # The Dugout
 
-Free, independent Fantasy Premier League research and planning. Phases 0–2 introduce the responsive local prototype and validated forecast publication layer. No conversational assistant or paid AI API calls.
+Free, independent Fantasy Premier League research and planning. Phases 0–3 provide the responsive interface, validated forecast publication layer, public Team ID import and local planning state. No conversational assistant or paid AI API calls.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -11,6 +11,7 @@ pnpm dev
 - [Development plan](THE_DUGOUT_DEVELOPMENT_PLAN.md)
 - [Architecture and data contract](docs/ARCHITECTURE.md)
 - [Phase 0 feasibility](docs/PHASE_0_FINDINGS.md)
+- [Phase 3 squad-state delivery](docs/DELIVERY_PHASE_3.md)
 - [Visual design](docs/DESIGN.md)
 - [Runbook](docs/RUNBOOK.md)
 
