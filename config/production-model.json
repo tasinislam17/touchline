@@ -1,0 +1,4 @@
+{
+  "pointer": "reports/v4/latest_freeze.json",
+  "refresh_script": "freeze_v4.py"
+}

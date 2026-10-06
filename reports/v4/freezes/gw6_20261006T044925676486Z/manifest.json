@@ -1,0 +1,54 @@
+{
+  "model_version": "v4-experimental",
+  "forecast_file": "v4.json",
+  "created_at_utc": "2026-10-06T04:49:25.676486+00:00",
+  "gameweek": 6,
+  "deadline_utc": "2026-10-10T10:00:00Z",
+  "season_start_deadline": "2026-08-21T17:30:00Z",
+  "data_snapshot": "data/raw/20261006T043524Z",
+  "data_manifest_sha256": "4d09a53c497cc6b5016f5d8afee69e4760ec36f22a072e9569c382f3d1d1b93b",
+  "availability_observed_at": "2026-10-06T04:35:24+00:00",
+  "source_code_sha256": {
+    "freeze_v4.py": "56ff90bd7c45b90787b302ba42bc6a2e90b471afeb695987d12dd30802127058",
+    "models/v4.py": "304ce03a15277fa67a180a394bc7cdb75b8c1aa8fd9f1a9125901fde72fc10c4",
+    "models/v4_features.py": "eacebff6d7af01baf55f97e4b266b11499394c1d0b95f4b8c799ad30e853d506",
+    "models/v3.py": "10df4cf46fd17601ba9b089a9a21d4cc3878b561bf98e868fa21594c74208a46",
+    "models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "availability.py": "3022814c7ece0e7c7a4cebe0f74661fafa008f944d65dacae19db9afefef0ecf",
+    "run_v4.py": "e70e848f34b5a0e220fb4398ea50424b3233fc6c95d9f10248eccba5ecf96cd2",
+    "validate_v4_players.py": "e0898d59c809d242ef8e0ff5ff568365a36ddc34dadad5759e3a088be66bbc9f",
+    "run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec",
+    "run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf"
+  },
+  "historical_inputs_sha256": {
+    "data/prior_2024_25.csv": "5bbbcba6353b4c72ad273adcc8e3aa451946a826564679788f45b1cb3325b84e",
+    "data/prior_season.csv": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d"
+  },
+  "role": "Prospective experimental forecast after reused retrospective confirmation. No manual team adjustments.",
+  "limitations": [
+    "Retrospective gains are modest; prospective accuracy remains unproven.",
+    "Availability mapping affects player points but is not calibrated.",
+    "Team scorelines do not yet adjust for individual injuries or manager changes.",
+    "One-gameweek forecasts only. Player minutes are not a joint substitution simulation."
+  ],
+  "files_sha256": {
+    "lineup_checks.json": "4f62290c68058a3e8d343009043d8cd1c944214377ae9e83371b1fe5d748c706",
+    "v4.json": "8069d0025461af37b3ac7c3d61bc34a45c8cf6cd36566cfaebdf02530ec9b85c",
+    "v3_same_snapshot.json": "bb484155afbd72c3f24978b134385a145fd96a105a618159ff9734d6cfd89dc8",
+    "source/freeze_v4.py": "56ff90bd7c45b90787b302ba42bc6a2e90b471afeb695987d12dd30802127058",
+    "source/run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf",
+    "source/validate_v4_players.py": "e0898d59c809d242ef8e0ff5ff568365a36ddc34dadad5759e3a088be66bbc9f",
+    "source/run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec",
+    "source/availability.py": "3022814c7ece0e7c7a4cebe0f74661fafa008f944d65dacae19db9afefef0ecf",
+    "source/run_v4.py": "e70e848f34b5a0e220fb4398ea50424b3233fc6c95d9f10248eccba5ecf96cd2",
+    "source/models/v4.py": "304ce03a15277fa67a180a394bc7cdb75b8c1aa8fd9f1a9125901fde72fc10c4",
+    "source/models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "source/models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "source/models/v3.py": "10df4cf46fd17601ba9b089a9a21d4cc3878b561bf98e868fa21594c74208a46",
+    "source/models/v4_features.py": "eacebff6d7af01baf55f97e4b266b11499394c1d0b95f4b8c799ad30e853d506",
+    "source/reports/v4/player_guard.json": "505bce0a1bceaddfd3e209679f17fc358df23397d90b2c16b62bf20021779e01",
+    "source/reports/v4/PROTOCOL.md": "5d15aeab41e41767b896c673a896b396cfac49ef864feb39f16cf407a9bd0acd",
+    "source/reports/v4/final_results.json": "74023e4d05f9049fcfba09db887795b9a65ed4ffccefadcdc3d4bf3fc0cb342f"
+  }
+}

@@ -21,6 +21,8 @@ if(await page.locator('.compare-card').count()!==2)throw Error('Comparison faile
 await page.screenshot({path:'artifacts/qa/compare-desktop.png',fullPage:true});
 await page.goto('http://127.0.0.1:4173/#fixtures');await page.locator('.match-card').first().waitFor();
 if(await page.locator('.match-card').count()!==10)throw Error('Missing fixtures');
+const scores=await page.locator('.match-card .score').allTextContents();
+if(scores.some(s=>!/^\d+\.\d{2} – \d+\.\d{2}$/.test(s.trim())))throw Error('Expected goals must use two decimals');
 await page.screenshot({path:'artifacts/qa/fixtures-desktop.png',fullPage:true});
 await page.goto('http://127.0.0.1:4173/#more');await page.getByRole('button',{name:'offline',exact:true}).click();await page.getByRole('heading',{name:'You’re offline.'}).waitFor();await page.getByRole('button',{name:'Return to preview'}).click();
 for(const width of [390,768,1440]){

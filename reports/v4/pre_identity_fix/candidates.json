@@ -1,0 +1,146 @@
+{
+  "r2.0_d120.0_x0.0_v0": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 0.0,
+    "venue": false
+  },
+  "r2.0_d120.0_x0.0_v1": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 0.0,
+    "venue": true
+  },
+  "r2.0_d120.0_x0.5_v0": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 0.5,
+    "venue": false
+  },
+  "r2.0_d120.0_x0.5_v1": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 0.5,
+    "venue": true
+  },
+  "r2.0_d120.0_x1.0_v0": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 1.0,
+    "venue": false
+  },
+  "r2.0_d120.0_x1.0_v1": {
+    "ridge": 2.0,
+    "half_days": 120.0,
+    "xg_weight": 1.0,
+    "venue": true
+  },
+  "r2.0_d300.0_x0.0_v0": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 0.0,
+    "venue": false
+  },
+  "r2.0_d300.0_x0.0_v1": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 0.0,
+    "venue": true
+  },
+  "r2.0_d300.0_x0.5_v0": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 0.5,
+    "venue": false
+  },
+  "r2.0_d300.0_x0.5_v1": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 0.5,
+    "venue": true
+  },
+  "r2.0_d300.0_x1.0_v0": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 1.0,
+    "venue": false
+  },
+  "r2.0_d300.0_x1.0_v1": {
+    "ridge": 2.0,
+    "half_days": 300.0,
+    "xg_weight": 1.0,
+    "venue": true
+  },
+  "r8.0_d120.0_x0.0_v0": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 0.0,
+    "venue": false
+  },
+  "r8.0_d120.0_x0.0_v1": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 0.0,
+    "venue": true
+  },
+  "r8.0_d120.0_x0.5_v0": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 0.5,
+    "venue": false
+  },
+  "r8.0_d120.0_x0.5_v1": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 0.5,
+    "venue": true
+  },
+  "r8.0_d120.0_x1.0_v0": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 1.0,
+    "venue": false
+  },
+  "r8.0_d120.0_x1.0_v1": {
+    "ridge": 8.0,
+    "half_days": 120.0,
+    "xg_weight": 1.0,
+    "venue": true
+  },
+  "r8.0_d300.0_x0.0_v0": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 0.0,
+    "venue": false
+  },
+  "r8.0_d300.0_x0.0_v1": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 0.0,
+    "venue": true
+  },
+  "r8.0_d300.0_x0.5_v0": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 0.5,
+    "venue": false
+  },
+  "r8.0_d300.0_x0.5_v1": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 0.5,
+    "venue": true
+  },
+  "r8.0_d300.0_x1.0_v0": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 1.0,
+    "venue": false
+  },
+  "r8.0_d300.0_x1.0_v1": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 1.0,
+    "venue": true
+  }
+}

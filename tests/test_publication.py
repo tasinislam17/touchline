@@ -68,7 +68,8 @@ class PublicationTests(unittest.TestCase):
 class SavedForecastTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.payload=build()
+        freeze=ROOT/json.loads((ROOT/'reports/v3/latest_freeze.json').read_text())['path']
+        cls.payload=build(freeze=freeze)
         freeze=ROOT/json.loads((ROOT/'reports/v3/latest_freeze.json').read_text())['path']
         cls.raw=json.loads((freeze/'v3.json').read_text())
         cls.meta=json.loads((freeze/'manifest.json').read_text())

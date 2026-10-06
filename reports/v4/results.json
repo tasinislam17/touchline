@@ -1,0 +1,1081 @@
+{
+  "selected": "r8.0_d300.0_x1.0_v1",
+  "configuration": {
+    "ridge": 8.0,
+    "half_days": 300.0,
+    "xg_weight": 1.0,
+    "venue": true
+  },
+  "accepted_match_gate": false,
+  "development": {
+    "r2.0_d120.0_x0.0_v0": {
+      "matches": 271,
+      "log_loss": 2.895969288564453,
+      "brier": 0.6219001229581758,
+      "goal_mae": 0.8749319172309771,
+      "mean_draw_probability": 0.23997360843483584,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d120.0_x0.0_v1": {
+      "matches": 271,
+      "log_loss": 2.9221090810709978,
+      "brier": 0.6230472168387365,
+      "goal_mae": 0.8889954512323011,
+      "mean_draw_probability": 0.23846831368042218,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d120.0_x0.5_v0": {
+      "matches": 271,
+      "log_loss": 2.8699879866777507,
+      "brier": 0.618631014053532,
+      "goal_mae": 0.8653011993190869,
+      "mean_draw_probability": 0.241209586575623,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d120.0_x0.5_v1": {
+      "matches": 271,
+      "log_loss": 2.8777844909202477,
+      "brier": 0.6198329898444613,
+      "goal_mae": 0.8687396534166475,
+      "mean_draw_probability": 0.2402675856239747,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d120.0_x1.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8696909279599394,
+      "brier": 0.6234786061358762,
+      "goal_mae": 0.8685876566877623,
+      "mean_draw_probability": 0.24112588099165624,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d120.0_x1.0_v1": {
+      "matches": 271,
+      "log_loss": 2.8723769307436786,
+      "brier": 0.6271748472075858,
+      "goal_mae": 0.871662440948929,
+      "mean_draw_probability": 0.24086048234095134,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x0.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8871477525390654,
+      "brier": 0.6224644589501805,
+      "goal_mae": 0.8718109624015528,
+      "mean_draw_probability": 0.2407445968700176,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x0.0_v1": {
+      "matches": 271,
+      "log_loss": 2.9094263377498453,
+      "brier": 0.6254962234949898,
+      "goal_mae": 0.890011948630563,
+      "mean_draw_probability": 0.2383174823976544,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x0.5_v0": {
+      "matches": 271,
+      "log_loss": 2.8648892246972206,
+      "brier": 0.619737541338816,
+      "goal_mae": 0.8645089385038182,
+      "mean_draw_probability": 0.241457886967195,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x0.5_v1": {
+      "matches": 271,
+      "log_loss": 2.8699451768802136,
+      "brier": 0.6210417909066502,
+      "goal_mae": 0.8697905200127074,
+      "mean_draw_probability": 0.2395240784628091,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x1.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8628013280372917,
+      "brier": 0.6234314541020767,
+      "goal_mae": 0.867049100890648,
+      "mean_draw_probability": 0.24105078264685606,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r2.0_d300.0_x1.0_v1": {
+      "matches": 271,
+      "log_loss": 2.863344818921889,
+      "brier": 0.62524053180111,
+      "goal_mae": 0.8684017942879482,
+      "mean_draw_probability": 0.23985837387522566,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x0.0_v0": {
+      "matches": 271,
+      "log_loss": 2.881575234936359,
+      "brier": 0.6231133574392281,
+      "goal_mae": 0.873872380077409,
+      "mean_draw_probability": 0.24309638429600458,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x0.0_v1": {
+      "matches": 271,
+      "log_loss": 2.8852676268772015,
+      "brier": 0.6215123017556146,
+      "goal_mae": 0.8707499871542593,
+      "mean_draw_probability": 0.24256448376864867,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x0.5_v0": {
+      "matches": 271,
+      "log_loss": 2.8661866735201995,
+      "brier": 0.6213858070300453,
+      "goal_mae": 0.8691271690617103,
+      "mean_draw_probability": 0.24446478802818147,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x0.5_v1": {
+      "matches": 271,
+      "log_loss": 2.865686174614071,
+      "brier": 0.6213845435603875,
+      "goal_mae": 0.8658741960747088,
+      "mean_draw_probability": 0.24422988893797348,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x1.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8656718021138543,
+      "brier": 0.6247481033055176,
+      "goal_mae": 0.8718521146162718,
+      "mean_draw_probability": 0.24499979599797098,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d120.0_x1.0_v1": {
+      "matches": 271,
+      "log_loss": 2.864275047982772,
+      "brier": 0.6268543534699158,
+      "goal_mae": 0.8711531182041864,
+      "mean_draw_probability": 0.24506728148840878,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x0.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8780754099622134,
+      "brier": 0.6234206103792092,
+      "goal_mae": 0.8722377195584409,
+      "mean_draw_probability": 0.24238364049158467,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x0.0_v1": {
+      "matches": 271,
+      "log_loss": 2.8814726500671792,
+      "brier": 0.6223270537534361,
+      "goal_mae": 0.8721796170672353,
+      "mean_draw_probability": 0.24126158039932624,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x0.5_v0": {
+      "matches": 271,
+      "log_loss": 2.8622929542066307,
+      "brier": 0.6214395306588213,
+      "goal_mae": 0.8667475906628915,
+      "mean_draw_probability": 0.24335279457746875,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x0.5_v1": {
+      "matches": 271,
+      "log_loss": 2.8607674497472746,
+      "brier": 0.6212063610495068,
+      "goal_mae": 0.8640450964416313,
+      "mean_draw_probability": 0.24252926962171786,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x1.0_v0": {
+      "matches": 271,
+      "log_loss": 2.8596202177572727,
+      "brier": 0.6237891498127498,
+      "goal_mae": 0.867320707302804,
+      "mean_draw_probability": 0.24364821453195804,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "r8.0_d300.0_x1.0_v1": {
+      "matches": 271,
+      "log_loss": 2.857493359424779,
+      "brier": 0.6250489729327082,
+      "goal_mae": 0.8662545990551782,
+      "mean_draw_probability": 0.24319260415432722,
+      "actual_draw_rate": 0.28044280442804426
+    }
+  },
+  "confirmation": {
+    "candidate": {
+      "matches": 129,
+      "log_loss": 2.9576826802845964,
+      "brier": 0.633567128784027,
+      "goal_mae": 0.9425523692705912,
+      "mean_draw_probability": 0.24160930821215196,
+      "actual_draw_rate": 0.29457364341085274
+    },
+    "incumbent": {
+      "matches": 129,
+      "log_loss": 2.986197300258915,
+      "brier": 0.6369617280231124,
+      "goal_mae": 0.9726108372571696,
+      "mean_draw_probability": 0.2463794458537856,
+      "actual_draw_rate": 0.29457364341085274
+    },
+    "league": {
+      "matches": 129,
+      "log_loss": 3.0477806894937682,
+      "brier": 0.6795795010151758,
+      "goal_mae": 0.9950404707446976,
+      "mean_draw_probability": 0.24510807027269715,
+      "actual_draw_rate": 0.29457364341085274
+    }
+  },
+  "slices": {
+    "2025-26": {
+      "candidate": {
+        "matches": 79,
+        "log_loss": 2.9250401083498474,
+        "brier": 0.6307225359689788,
+        "goal_mae": 0.9178419765157932,
+        "mean_draw_probability": 0.24196480224148723,
+        "actual_draw_rate": 0.27848101265822783
+      },
+      "incumbent": {
+        "matches": 79,
+        "log_loss": 2.90378365634872,
+        "brier": 0.617577338640276,
+        "goal_mae": 0.9207601260592282,
+        "mean_draw_probability": 0.24903821636830006,
+        "actual_draw_rate": 0.27848101265822783
+      }
+    },
+    "2026-27": {
+      "candidate": {
+        "matches": 50,
+        "log_loss": 3.0092579439415004,
+        "brier": 0.6380615854318031,
+        "goal_mae": 0.9815947898231718,
+        "mean_draw_probability": 0.24104762764580223,
+        "actual_draw_rate": 0.32
+      },
+      "incumbent": {
+        "matches": 50,
+        "log_loss": 3.1164108576370215,
+        "brier": 0.6675890632479942,
+        "goal_mae": 1.0545349609499168,
+        "mean_draw_probability": 0.24217858844085288,
+        "actual_draw_rate": 0.32
+      }
+    }
+  },
+  "nll_difference_gw_bootstrap_ci95": [
+    -0.08793562816725964,
+    0.022279901940527376
+  ],
+  "folds": [
+    {
+      "season": "2025-26",
+      "gw": 4,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.596090494673438,
+        "brier": 0.5144158370988503,
+        "goal_mae": 0.9524451971816343,
+        "mean_draw_probability": 0.24263619911338336,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.757815352408504,
+        "brier": 0.6112298702275194,
+        "goal_mae": 1.0358665019506461,
+        "mean_draw_probability": 0.2583683043041289,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 5,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.5387187053562603,
+        "brier": 0.6504781117511785,
+        "goal_mae": 0.5385109861146967,
+        "mean_draw_probability": 0.25178044301295005,
+        "actual_draw_rate": 0.5
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.5716228050296874,
+        "brier": 0.685382229476196,
+        "goal_mae": 0.5962252950747449,
+        "mean_draw_probability": 0.267882928860821,
+        "actual_draw_rate": 0.5
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 6,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.8121674504302514,
+        "brier": 0.6594332084025736,
+        "goal_mae": 0.7556443708180992,
+        "mean_draw_probability": 0.2463432288076793,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.0094315685042923,
+        "brier": 0.6629132887359325,
+        "goal_mae": 0.794412440276372,
+        "mean_draw_probability": 0.26841464157771033,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 7,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.5163724884982264,
+        "brier": 0.5221455970931331,
+        "goal_mae": 0.6409925313874758,
+        "mean_draw_probability": 0.24474441391666152,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.516684478182598,
+        "brier": 0.5423515544473452,
+        "goal_mae": 0.6407239942007379,
+        "mean_draw_probability": 0.26078313701269684,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 8,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.7753329339021917,
+        "brier": 0.613526411689562,
+        "goal_mae": 0.9137858847866559,
+        "mean_draw_probability": 0.2540730504233929,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8730739320154415,
+        "brier": 0.60791446791311,
+        "goal_mae": 0.9317413502503709,
+        "mean_draw_probability": 0.26149729834752644,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 9,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.03526276298195,
+        "brier": 0.6043787987921008,
+        "goal_mae": 0.8871654799443215,
+        "mean_draw_probability": 0.24589939703674948,
+        "actual_draw_rate": 0.0
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.0194978619123622,
+        "brier": 0.5530787048645097,
+        "goal_mae": 0.8989350641514287,
+        "mean_draw_probability": 0.25700779148821895,
+        "actual_draw_rate": 0.0
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 10,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.837533035471526,
+        "brier": 0.533028869353,
+        "goal_mae": 0.8465738322978836,
+        "mean_draw_probability": 0.24392347938097406,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8279235220570653,
+        "brier": 0.5811762361666339,
+        "goal_mae": 0.8748119166338693,
+        "mean_draw_probability": 0.25491039460759435,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 11,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.2874087811471453,
+        "brier": 0.6149136184187366,
+        "goal_mae": 1.1473116346548033,
+        "mean_draw_probability": 0.24866425152786303,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.198221352404265,
+        "brier": 0.5742973794532998,
+        "goal_mae": 1.1003737611229498,
+        "mean_draw_probability": 0.2555944548056643,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 12,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.8719282134079824,
+        "brier": 0.606356487773698,
+        "goal_mae": 0.81408245671747,
+        "mean_draw_probability": 0.24533630482355898,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8657601282897733,
+        "brier": 0.6192424555169158,
+        "goal_mae": 0.8337505835287813,
+        "mean_draw_probability": 0.2512100437800552,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 13,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.8700448084315244,
+        "brier": 0.4975617244975889,
+        "goal_mae": 0.759741360123183,
+        "mean_draw_probability": 0.23424325144407027,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.0106817671149324,
+        "brier": 0.5740360332917169,
+        "goal_mae": 0.9014393497910206,
+        "mean_draw_probability": 0.2465750348906139,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 14,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.4012077550967015,
+        "brier": 0.7012348347259694,
+        "goal_mae": 1.1166685191827344,
+        "mean_draw_probability": 0.24183349204158966,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.4644277462766473,
+        "brier": 0.6969152527173527,
+        "goal_mae": 1.1372397982855638,
+        "mean_draw_probability": 0.24893010500024793,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 15,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.0166250872680958,
+        "brier": 0.6115321610055332,
+        "goal_mae": 0.9884762640953598,
+        "mean_draw_probability": 0.2395213566811945,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.000000570000195,
+        "brier": 0.6101041353029011,
+        "goal_mae": 0.9572278282741069,
+        "mean_draw_probability": 0.24778514213763442,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 16,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.2333697964200168,
+        "brier": 0.5617955483648523,
+        "goal_mae": 1.0863628423762606,
+        "mean_draw_probability": 0.245626726569706,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.2539655438223187,
+        "brier": 0.5771415803831532,
+        "goal_mae": 1.0762864881732384,
+        "mean_draw_probability": 0.2447750644948751,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 17,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.583684744434354,
+        "brier": 0.5709262237359243,
+        "goal_mae": 0.7449433138497789,
+        "mean_draw_probability": 0.237457538233702,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.6905438262100105,
+        "brier": 0.607450063961698,
+        "goal_mae": 0.8464509001155601,
+        "mean_draw_probability": 0.24497069415249323,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 18,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.5477813768583837,
+        "brier": 0.6063041473078796,
+        "goal_mae": 0.703850399045925,
+        "mean_draw_probability": 0.2472230361827709,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.5901928235460234,
+        "brier": 0.5750382889039242,
+        "goal_mae": 0.7035450736550587,
+        "mean_draw_probability": 0.24509792451405166,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 19,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.8347756581357926,
+        "brier": 0.7798286181006802,
+        "goal_mae": 0.9145308889190404,
+        "mean_draw_probability": 0.23951104343772056,
+        "actual_draw_rate": 0.7
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8430977273414966,
+        "brier": 0.7828569377838297,
+        "goal_mae": 0.9342659422631462,
+        "mean_draw_probability": 0.24544275638701746,
+        "actual_draw_rate": 0.7
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 20,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.022445232240373,
+        "brier": 0.6224922729589766,
+        "goal_mae": 0.8766992933548942,
+        "mean_draw_probability": 0.24543543447314628,
+        "actual_draw_rate": 0.4
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.9171697677134008,
+        "brier": 0.6212472559835709,
+        "goal_mae": 0.8189931115498407,
+        "mean_draw_probability": 0.24793501013627503,
+        "actual_draw_rate": 0.4
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 21,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.9512107238540874,
+        "brier": 0.6621214954933967,
+        "goal_mae": 0.9477913052598902,
+        "mean_draw_probability": 0.24557511765345447,
+        "actual_draw_rate": 0.5
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.9608929641350428,
+        "brier": 0.690090587983968,
+        "goal_mae": 0.9523153075464587,
+        "mean_draw_probability": 0.24714073665876796,
+        "actual_draw_rate": 0.5
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 22,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.555536265451517,
+        "brier": 0.7683995596025417,
+        "goal_mae": 0.885967218672112,
+        "mean_draw_probability": 0.2407201946391942,
+        "actual_draw_rate": 0.4
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.5859447851004296,
+        "brier": 0.7401215179510044,
+        "goal_mae": 0.8663887766915759,
+        "mean_draw_probability": 0.24624345141815285,
+        "actual_draw_rate": 0.4
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 23,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.1152697932294373,
+        "brier": 0.725165081157102,
+        "goal_mae": 0.9145191727968924,
+        "mean_draw_probability": 0.24508907316539683,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.991809764334447,
+        "brier": 0.6640803594811187,
+        "goal_mae": 0.8497614774004143,
+        "mean_draw_probability": 0.24959976754585841,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 24,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.0339726647422145,
+        "brier": 0.5576988082673299,
+        "goal_mae": 0.9163028513862266,
+        "mean_draw_probability": 0.24703604260821557,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.076471243211225,
+        "brier": 0.5838565020574175,
+        "goal_mae": 0.9681415691637228,
+        "mean_draw_probability": 0.24891166064328343,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 25,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.732933779995078,
+        "brier": 0.559777465721097,
+        "goal_mae": 0.7617631541197699,
+        "mean_draw_probability": 0.24337015813795265,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.7895152803636143,
+        "brier": 0.5853418887019184,
+        "goal_mae": 0.812689281497746,
+        "mean_draw_probability": 0.24772034121374326,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 26,
+      "candidate": {
+        "matches": 11,
+        "log_loss": 2.649176453845716,
+        "brier": 0.7139214674498273,
+        "goal_mae": 0.7099134097099754,
+        "mean_draw_probability": 0.23689387872084228,
+        "actual_draw_rate": 0.45454545454545453
+      },
+      "incumbent": {
+        "matches": 11,
+        "log_loss": 2.6612519644539474,
+        "brier": 0.7187732001773771,
+        "goal_mae": 0.7511764733364487,
+        "mean_draw_probability": 0.2468347496878361,
+        "actual_draw_rate": 0.45454545454545453
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 27,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.7476554296544013,
+        "brier": 0.6339950382820365,
+        "goal_mae": 0.8969895945755202,
+        "mean_draw_probability": 0.23543027072625988,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.740300254867114,
+        "brier": 0.6516507316438793,
+        "goal_mae": 0.8796960308247712,
+        "mean_draw_probability": 0.24480970846881048,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 28,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.1544039035351483,
+        "brier": 0.5426939283249463,
+        "goal_mae": 0.8909999219304094,
+        "mean_draw_probability": 0.24202399602058783,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.156984916368647,
+        "brier": 0.5315117857239283,
+        "goal_mae": 0.893620559947051,
+        "mean_draw_probability": 0.24753125163236628,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 29,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.802663708698036,
+        "brier": 0.6857577284320315,
+        "goal_mae": 0.8776608844354324,
+        "mean_draw_probability": 0.23993731275459532,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8913025839079793,
+        "brier": 0.6808191532355365,
+        "goal_mae": 0.9315222166827404,
+        "mean_draw_probability": 0.24694785378885564,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 30,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.6495803472670914,
+        "brier": 0.7475519759308649,
+        "goal_mae": 0.9148155256878899,
+        "mean_draw_probability": 0.23650149317657232,
+        "actual_draw_rate": 0.6
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.63141129577816,
+        "brier": 0.7415002351548109,
+        "goal_mae": 0.9101736397693839,
+        "mean_draw_probability": 0.24546541545000533,
+        "actual_draw_rate": 0.6
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 31,
+      "candidate": {
+        "matches": 8,
+        "log_loss": 3.104256263697737,
+        "brier": 0.7232596401203124,
+        "goal_mae": 1.0704219396185484,
+        "mean_draw_probability": 0.24199181641354106,
+        "actual_draw_rate": 0.25
+      },
+      "incumbent": {
+        "matches": 8,
+        "log_loss": 2.987047949527563,
+        "brier": 0.6587318657789907,
+        "goal_mae": 0.9847452464194537,
+        "mean_draw_probability": 0.2509676812755436,
+        "actual_draw_rate": 0.25
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 32,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.845030388169794,
+        "brier": 0.6636306093768933,
+        "goal_mae": 0.8508481530224818,
+        "mean_draw_probability": 0.243276902105772,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8251739886949143,
+        "brier": 0.6388486957993518,
+        "goal_mae": 0.8793870086333209,
+        "mean_draw_probability": 0.250654317128611,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 33,
+      "candidate": {
+        "matches": 13,
+        "log_loss": 3.148598324330704,
+        "brier": 0.6155777463133347,
+        "goal_mae": 1.0789003293406425,
+        "mean_draw_probability": 0.23408721946939898,
+        "actual_draw_rate": 0.3076923076923077
+      },
+      "incumbent": {
+        "matches": 13,
+        "log_loss": 3.0833938072246676,
+        "brier": 0.605346210820021,
+        "goal_mae": 1.0560965285916089,
+        "mean_draw_probability": 0.24880012913816013,
+        "actual_draw_rate": 0.3076923076923077
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 34,
+      "candidate": {
+        "matches": 7,
+        "log_loss": 2.9835794937291626,
+        "brier": 0.49326125647212615,
+        "goal_mae": 0.8980875094856549,
+        "mean_draw_probability": 0.2591699074928465,
+        "actual_draw_rate": 0.0
+      },
+      "incumbent": {
+        "matches": 7,
+        "log_loss": 3.0471533255242287,
+        "brier": 0.501897288566922,
+        "goal_mae": 0.9725139060592166,
+        "mean_draw_probability": 0.25244117407654276,
+        "actual_draw_rate": 0.0
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 35,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.145231494975541,
+        "brier": 0.5880748789394538,
+        "goal_mae": 0.994559201269043,
+        "mean_draw_probability": 0.23639325751162876,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.169774233498796,
+        "brier": 0.5853748147521058,
+        "goal_mae": 1.0249448757234256,
+        "mean_draw_probability": 0.24923209134500124,
+        "actual_draw_rate": 0.2
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 36,
+      "candidate": {
+        "matches": 11,
+        "log_loss": 2.5883339046246507,
+        "brier": 0.6310851608197754,
+        "goal_mae": 0.8344158267188433,
+        "mean_draw_probability": 0.24358744908007102,
+        "actual_draw_rate": 0.5454545454545454
+      },
+      "incumbent": {
+        "matches": 11,
+        "log_loss": 2.602731636584142,
+        "brier": 0.6471282700857723,
+        "goal_mae": 0.8402586969368252,
+        "mean_draw_probability": 0.24660076539174522,
+        "actual_draw_rate": 0.5454545454545454
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 37,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.869036839194604,
+        "brier": 0.5594355633364337,
+        "goal_mae": 0.7651269415435935,
+        "mean_draw_probability": 0.23462957316442204,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.8832975755723025,
+        "brier": 0.5837350231799462,
+        "goal_mae": 0.8157179056993231,
+        "mean_draw_probability": 0.24472649921338796,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2025-26",
+      "gw": 38,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.7362623603382166,
+        "brier": 0.7532316437663255,
+        "goal_mae": 0.8349906727712881,
+        "mean_draw_probability": 0.24995023725180388,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.6675826502652447,
+        "brier": 0.6937976757463604,
+        "goal_mae": 0.7881892206352192,
+        "mean_draw_probability": 0.25060502493802705,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2026-27",
+      "gw": 1,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.920492746544354,
+        "brier": 0.5441659501909935,
+        "goal_mae": 0.9259978566873084,
+        "mean_draw_probability": 0.24036069515896524,
+        "actual_draw_rate": 0.1
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.0386216007832183,
+        "brier": 0.578191477928895,
+        "goal_mae": 0.9899999999999999,
+        "mean_draw_probability": 0.25137448372197435,
+        "actual_draw_rate": 0.1
+      }
+    },
+    {
+      "season": "2026-27",
+      "gw": 2,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.0039574316588764,
+        "brier": 0.6101469309518074,
+        "goal_mae": 0.9611251108138619,
+        "mean_draw_probability": 0.24214796541137834,
+        "actual_draw_rate": 0.3
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.2676740408174028,
+        "brier": 0.6603881074915788,
+        "goal_mae": 1.1113890083904594,
+        "mean_draw_probability": 0.23999194832148024,
+        "actual_draw_rate": 0.3
+      }
+    },
+    {
+      "season": "2026-27",
+      "gw": 3,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 2.5863703522310235,
+        "brier": 0.6775943237078773,
+        "goal_mae": 0.728144836866678,
+        "mean_draw_probability": 0.2381688777606778,
+        "actual_draw_rate": 0.6
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 2.751689612096419,
+        "brier": 0.754691960662673,
+        "goal_mae": 0.8324059599059834,
+        "mean_draw_probability": 0.2302374273600487,
+        "actual_draw_rate": 0.6
+      }
+    },
+    {
+      "season": "2026-27",
+      "gw": 4,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.300463220052152,
+        "brier": 0.7584845266867192,
+        "goal_mae": 1.1360228183215608,
+        "mean_draw_probability": 0.23998393469099008,
+        "actual_draw_rate": 0.4
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.2472086532110245,
+        "brier": 0.6981226589959331,
+        "goal_mae": 1.128534755720052,
+        "mean_draw_probability": 0.24413435011432974,
+        "actual_draw_rate": 0.4
+      }
+    },
+    {
+      "season": "2026-27",
+      "gw": 5,
+      "candidate": {
+        "matches": 10,
+        "log_loss": 3.235005969221098,
+        "brier": 0.5999161956216182,
+        "goal_mae": 1.15668332642645,
+        "mean_draw_probability": 0.24457666520699975,
+        "actual_draw_rate": 0.2
+      },
+      "incumbent": {
+        "matches": 10,
+        "log_loss": 3.2768603812770487,
+        "brier": 0.6465511111608903,
+        "goal_mae": 1.2103450807330898,
+        "mean_draw_probability": 0.24515473268643123,
+        "actual_draw_rate": 0.2
+      }
+    }
+  ],
+  "source_sha256": {
+    "data/prior_2024_25.csv": "5bbbcba6353b4c72ad273adcc8e3aa451946a826564679788f45b1cb3325b84e",
+    "data/prior_season.csv": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d",
+    "models/v4.py": "304ce03a15277fa67a180a394bc7cdb75b8c1aa8fd9f1a9125901fde72fc10c4",
+    "run_v4.py": "e70e848f34b5a0e220fb4398ea50424b3233fc6c95d9f10248eccba5ecf96cd2"
+  },
+  "role": "chronological retrospective development/confirmation; not untouched prospective evidence"
+}

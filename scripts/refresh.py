@@ -18,7 +18,8 @@ from pipeline.publication import atomic, encode
 def main():
     start=time.monotonic()
     try:
-        for command in (['fetch_data.py'], ['run_v3.py'], ['-m', 'pipeline.publication']):
+        selection=json.loads((ROOT/'config/production-model.json').read_text())
+        for command in (['fetch_data.py'], [selection['refresh_script']], ['-m', 'pipeline.publication']):
             subprocess.run([sys.executable, *command], cwd=ROOT, check=True, timeout=1800)
     except Exception as exc:
         atomic(ROOT/'web/public/data/status.json', encode({'state':'failed', 'attempted_at':dt.datetime.now(dt.timezone.utc).isoformat(), 'last_error':type(exc).__name__}))

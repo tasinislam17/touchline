@@ -167,7 +167,8 @@ def validate_forecast(payload, catalog, meta):
 
 def build(root=ROOT, freeze=None):
     root = Path(root)
-    freeze = Path(freeze) if freeze else root / read_json(root / 'reports/v3/latest_freeze.json')['path']
+    selection = read_json(root / 'config/production-model.json') if (root / 'config/production-model.json').exists() else {'pointer': 'reports/v3/latest_freeze.json'}
+    freeze = Path(freeze) if freeze else root / read_json(root / selection['pointer'])['path']
     meta = read_json(freeze / 'manifest.json')
     for name, expected in meta['files_sha256'].items():
         if digest((freeze / name).read_bytes()) != expected:
@@ -181,7 +182,8 @@ def build(root=ROOT, freeze=None):
             raise ValueError('Source checksum mismatch: ' + name)
     bootstrap = read_json(source / 'bootstrap.json')
     catalog = normalize(bootstrap, read_json(source / 'fixtures.json'), manifest['retrieved_at'])
-    forecast = read_json(freeze / 'v3.json')
+    forecast_file = meta.get('forecast_file', 'v3.json')
+    forecast = read_json(freeze / forecast_file)
     validate_forecast(forecast, catalog, meta)
     rows = []
     for p in forecast['players']:
@@ -189,13 +191,13 @@ def build(root=ROOT, freeze=None):
     # Include players without fixtures with a zero gameweek sum, without inventing a fixture row.
     aggregate = [{'player': p['id'], 'gw': meta['gameweek'], 'points': sum(r['points'] for r in rows if r['player'] == p['id']),
                   'fixtures': [r['fixture'] for r in rows if r['player'] == p['id']]} for p in catalog['players']]
-    return {'schema_version': SCHEMA, 'meta': {'model_version': 'v3-experimental', 'season': catalog['season'],
+    return {'schema_version': SCHEMA, 'meta': {'model_version': meta.get('model_version', 'v3-experimental'), 'season': catalog['season'],
             'gameweek': meta['gameweek'], 'deadline': meta['deadline_utc'], 'observed_at': catalog['observed_at'],
             'forecast_at': meta['created_at_utc'], 'source_checksum': meta['data_manifest_sha256'],
-            'forecast_checksum': meta['files_sha256']['v3.json'], 'next_scheduled_refresh': None,
+            'forecast_checksum': meta['files_sha256'][forecast_file], 'next_scheduled_refresh': None,
             'refresh_mode': 'manual-development', 'stale_after_hours': 24,
-            'limitations': ['Availability mapping is experimental, not calibrated.', 'Scorelines do not yet respond to injury news.',
-                             'One-gameweek forecasts only. No optimizer recommendations yet.', 'Player minutes are not a joint substitution simulation.']},
+            'limitations': meta.get('limitations', ['Availability mapping is experimental, not calibrated.', 'Scorelines do not yet respond to injury news.',
+                             'One-gameweek forecasts only. No optimizer recommendations yet.', 'Player minutes are not a joint substitution simulation.'])},
             'catalog': catalog, 'player_forecasts': rows, 'gameweek_totals': aggregate, 'matches': forecast['matches']}
 
 

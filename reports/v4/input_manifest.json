@@ -1,0 +1,8 @@
+{
+  "sha256": {
+    "data/prior_2024_25.csv": "5bbbcba6353b4c72ad273adcc8e3aa451946a826564679788f45b1cb3325b84e",
+    "data/prior_season.csv": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d",
+    "data/raw/20261006T043524Z/manifest.json": "4d09a53c497cc6b5016f5d8afee69e4760ec36f22a072e9569c382f3d1d1b93b",
+    "reports/v4/match_inputs.json": "f2fc2a0b330dc42ac9bf3034cd640819123db52d46984983f2edb44ab3bb570a"
+  }
+}

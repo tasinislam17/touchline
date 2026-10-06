@@ -18,7 +18,9 @@ jobs:
       - name: Install model dependency
         run: pip install -r requirements.txt
       - name: Download historical training input
-        run: curl -fL --retry 3 https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv -o data/prior_season.csv
+        run: |
+          curl -fL --retry 3 https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv -o data/prior_season.csv
+          curl -fL --retry 3 https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/gws/merged_gw.csv -o data/prior_2024_25.csv
       - name: Fetch, freeze and validate
         run: python scripts/refresh.py
       - name: Verify model and publication contracts
@@ -29,8 +31,8 @@ jobs:
           name: dugout-forecast-${{ github.run_id }}
           path: |
             web/public/data/
-            reports/v3/latest_freeze.json
-            reports/v3/freezes/
+            reports/v4/latest_freeze.json
+            reports/v4/freezes/
             data/raw/
           retention-days: 7
 # Intentionally no push, pull_request or schedule trigger. No Netlify API/token/build hook.

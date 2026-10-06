@@ -1,0 +1,122 @@
+{
+  "configuration": {
+    "ridge": 20.0,
+    "standings": false,
+    "rho": -0.15
+  },
+  "accepted_match_gate": true,
+  "confirmation": {
+    "candidate": {
+      "matches": 129,
+      "log_loss": 2.956012511732674,
+      "brier": 0.6208905932920904,
+      "goal_mae": 0.9488756638301901,
+      "mean_draw_probability": 0.28179645544973503,
+      "actual_draw_rate": 0.29457364341085274
+    },
+    "incumbent": {
+      "matches": 129,
+      "log_loss": 2.986197300258915,
+      "brier": 0.6369617280231124,
+      "goal_mae": 0.9726108372571696,
+      "mean_draw_probability": 0.2463794458537856,
+      "actual_draw_rate": 0.29457364341085274
+    }
+  },
+  "slices": {
+    "2025-26": {
+      "candidate": {
+        "matches": 79,
+        "log_loss": 2.90111555852342,
+        "brier": 0.6167644269863182,
+        "goal_mae": 0.9169414057287001,
+        "mean_draw_probability": 0.28266811267948294,
+        "actual_draw_rate": 0.27848101265822783
+      },
+      "incumbent": {
+        "matches": 79,
+        "log_loss": 2.90378365634872,
+        "brier": 0.617577338640276,
+        "goal_mae": 0.9207601260592282,
+        "mean_draw_probability": 0.24903821636830006,
+        "actual_draw_rate": 0.27848101265822783
+      }
+    },
+    "2026-27": {
+      "candidate": {
+        "matches": 50,
+        "log_loss": 3.042749697803296,
+        "brier": 0.6274099360552104,
+        "goal_mae": 0.9993317916305441,
+        "mean_draw_probability": 0.2804192370267334,
+        "actual_draw_rate": 0.32
+      },
+      "incumbent": {
+        "matches": 50,
+        "log_loss": 3.1164108576370215,
+        "brier": 0.6675890632479942,
+        "goal_mae": 1.0545349609499168,
+        "mean_draw_probability": 0.24217858844085288,
+        "actual_draw_rate": 0.32
+      }
+    }
+  },
+  "development_rho_trials": {
+    "-0.2": {
+      "matches": 271,
+      "log_loss": 2.865343429108569,
+      "brier": 0.6247712762853543,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.2960257321226306,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "-0.15": {
+      "matches": 271,
+      "log_loss": 2.864601019282088,
+      "brier": 0.6242786642857131,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.284293261051482,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "-0.1": {
+      "matches": 271,
+      "log_loss": 2.8654322233786838,
+      "brier": 0.6242008761734903,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.27256078998033345,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "-0.05": {
+      "matches": 271,
+      "log_loss": 2.8677853645182063,
+      "brier": 0.624537911948686,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.26082831890918484,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "0.0": {
+      "matches": 271,
+      "log_loss": 2.8716647474594326,
+      "brier": 0.6252897716113005,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.2490958478380362,
+      "actual_draw_rate": 0.28044280442804426
+    },
+    "0.05": {
+      "matches": 271,
+      "log_loss": 2.877131195709812,
+      "brier": 0.6264564551613336,
+      "goal_mae": 0.8756088406187944,
+      "mean_draw_probability": 0.23736337676688762,
+      "actual_draw_rate": 0.28044280442804426
+    }
+  },
+  "nll_difference_gw_bootstrap_ci95": [
+    -0.059896767027211396,
+    -0.00518719431780079
+  ],
+  "role": "feature-family calibration; reused retrospective confirmation after multiple experiments, not independent proof",
+  "source_sha256": {
+    "models/v4_features.py": "eacebff6d7af01baf55f97e4b266b11499394c1d0b95f4b8c799ad30e853d506"
+  }
+}

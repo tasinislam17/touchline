@@ -182,3 +182,7 @@ block or nested rolling evaluation. No optimizer can establish a universally opt
 All predictions in `reports/next_gameweek_*` are research outputs using match histories
 only. They do not yet account for current injury news and should not be presented as
 finished FPL recommendations.
+
+### Current forecast: V4 experimental
+
+See [V4 evaluation](reports/v4/FINDINGS.md). The fixture board displays expected goals to two decimals, with integer score probabilities below. `python scripts/refresh.py` refreshes the selected model; `python score_v4.py` evaluates its frozen forecast once the gameweek is final. Historical training requires both `data/prior_2024_25.csv` and `data/prior_season.csv` from the vaastav FPL archive. V4 improved retrospective metrics modestly; prospective accuracy is not yet established. No deployment is enabled.
