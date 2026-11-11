@@ -1,0 +1,54 @@
+{
+  "model_version": "v5-experimental",
+  "forecast_file": "v5.json",
+  "created_at_utc": "2026-11-11T04:36:03.623059+00:00",
+  "gameweek": 11,
+  "deadline_utc": "2026-11-21T11:00:00Z",
+  "season_start_deadline": "2026-08-21T17:30:00Z",
+  "data_snapshot": "data/raw/20261111T042746Z",
+  "data_manifest_sha256": "8f3dd8fe5a974a91e044bded2e7346a94cb899664ad40cd1e158fa5c8417d8e7",
+  "availability_observed_at": "2026-11-11T04:27:46+00:00",
+  "source_code_sha256": {
+    "freeze_v5.py": "ddbd9830a3ec50a923f3204faf8965adf797d024f1af92e5130cd496dd06d7b3",
+    "models/v5.py": "696216261809557b990123a5005ff27290e4b90c5d46754245d2180618fdb5c6",
+    "models/v4.py": "304ce03a15277fa67a180a394bc7cdb75b8c1aa8fd9f1a9125901fde72fc10c4",
+    "models/v3.py": "10df4cf46fd17601ba9b089a9a21d4cc3878b561bf98e868fa21594c74208a46",
+    "models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "availability.py": "3022814c7ece0e7c7a4cebe0f74661fafa008f944d65dacae19db9afefef0ecf",
+    "run_v5.py": "769145c39aa87d3df5716c0ac11ce7e66931750736a0e826d3b060492fbea6b1",
+    "run_v4.py": "5b844d914ac40c8281488b44836a1fdc7411b96fa95364620b19a65b6f4b07d8",
+    "run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec",
+    "run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf"
+  },
+  "historical_inputs_sha256": {
+    "data/prior_2024_25.csv": "5bbbcba6353b4c72ad273adcc8e3aa451946a826564679788f45b1cb3325b84e",
+    "data/prior_season.csv": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d"
+  },
+  "role": "Pre-deadline GW11 forecast. V4 match form retained; minutes decay updated after GW9-10 confirmation.",
+  "limitations": [
+    "The minutes improvement is small and needs more prospective rounds.",
+    "Only 20 matches were available in the new match confirmation slice.",
+    "Availability mapping affects player points but remains uncalibrated.",
+    "Team rates do not automatically alter for injury or manager-change scenarios.",
+    "One-gameweek forecasts only; minutes are not a joint substitution simulation."
+  ],
+  "files_sha256": {
+    "v4_same_snapshot.json": "580b6019d3525f31e36f49ad3515683565771fedf27ed2b13baaf6c1b93375c1",
+    "lineup_checks.json": "d6f7d6963b9d4b83f587c5179c1c8df607ecd286e67c354feef38764eec721dc",
+    "v5.json": "b04bb7952f34146f2d8478739a0b8ce35d1d9d03aa24f02e3cd664dc9337369c",
+    "source/freeze_v5.py": "ddbd9830a3ec50a923f3204faf8965adf797d024f1af92e5130cd496dd06d7b3",
+    "source/run_v2.py": "befb60cce40d5080e9ab41438943093d68eb07e37ba5b06471e5e2a349d36eaf",
+    "source/run_v5.py": "769145c39aa87d3df5716c0ac11ce7e66931750736a0e826d3b060492fbea6b1",
+    "source/run_experiments.py": "c2f86688665b3a181bd7d8df17600104fb417385f88372fa192b2bd276cbc4ec",
+    "source/availability.py": "3022814c7ece0e7c7a4cebe0f74661fafa008f944d65dacae19db9afefef0ecf",
+    "source/run_v4.py": "5b844d914ac40c8281488b44836a1fdc7411b96fa95364620b19a65b6f4b07d8",
+    "source/models/v4.py": "304ce03a15277fa67a180a394bc7cdb75b8c1aa8fd9f1a9125901fde72fc10c4",
+    "source/models/v5.py": "696216261809557b990123a5005ff27290e4b90c5d46754245d2180618fdb5c6",
+    "source/models/engine.py": "9e122b98d06f5d3c76eaabcbe7d56492b0b722eab5a286e582f07f6d9693fcac",
+    "source/models/v2.py": "d986eaa56ed5040fc45b7aaf991572a1739af4940ad84649ebe74a1082cc001a",
+    "source/models/v3.py": "10df4cf46fd17601ba9b089a9a21d4cc3878b561bf98e868fa21594c74208a46",
+    "source/reports/v5/results.json": "e08110c8c369ec13068198d679c0f37cda8646b49eabcfce1d8bdf4cbf7be03b",
+    "source/reports/v5/PROTOCOL.md": "ef00f33b217557ca8d3005f92c5b4a500eb644338398349e14d8fdedbb626483"
+  }
+}

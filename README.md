@@ -184,6 +184,6 @@ All predictions in `reports/next_gameweek_*` are research outputs using match hi
 only. They do not yet account for current injury news and should not be presented as
 finished FPL recommendations.
 
-### Current forecast: V4 experimental
+### Current forecast: V5 experimental
 
-See [V4 evaluation](reports/v4/FINDINGS.md). The fixture board displays expected goals to two decimals, with integer score probabilities below. `python scripts/refresh.py` refreshes the selected model; `python score_v4.py` evaluates its frozen forecast once the gameweek is final. Historical training requires both `data/prior_2024_25.csv` and `data/prior_season.csv` from the vaastav FPL archive. V4 improved retrospective metrics modestly; prospective accuracy is not yet established. No deployment is enabled.
+See [V5 evaluation](reports/v5/FINDINGS.md). After five additional completed rounds, the V4 match structure was retained and refitted through GW10; a modestly better minutes decay was promoted. The fixture board displays expected goals to two decimals, with integer score probabilities below. `python scripts/refresh.py` refreshes the selected model; `python score_v5.py` evaluates its immutable GW11 forecast once results are final. Historical training requires both `data/prior_2024_25.csv` and `data/prior_season.csv` from the vaastav FPL archive. Prospective accuracy remains under evaluation. No deployment is enabled.

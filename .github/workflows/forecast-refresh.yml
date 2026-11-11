@@ -31,8 +31,8 @@ jobs:
           name: dugout-forecast-${{ github.run_id }}
           path: |
             web/public/data/
-            reports/v4/latest_freeze.json
-            reports/v4/freezes/
+            reports/v5/latest_freeze.json
+            reports/v5/freezes/
             data/raw/
           retention-days: 7
 # Intentionally no push, pull_request or schedule trigger. No Netlify API/token/build hook.

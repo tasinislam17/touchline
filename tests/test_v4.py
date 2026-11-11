@@ -47,7 +47,8 @@ class V4Tests(unittest.TestCase):
         with patch('freeze_v4.read',side_effect=tampered):
             with self.assertRaises(ValueError):verify_acceptance()
     def test_current_publication_and_points_consistency(self):
-        p=build();self.assertEqual(p['meta']['model_version'],'v4-experimental')
+        freeze=ROOT/json.loads((ROOT/'reports/v4/latest_freeze.json').read_text())['path']
+        p=build(freeze=freeze);self.assertEqual(p['meta']['model_version'],'v4-experimental')
         for r in p['player_forecasts']:
             m=next(m for m in p['matches'] if m['fixture']==r['fixture'])
             opp=m['away_goals'] if r['team']==m['home'] else m['home_goals']

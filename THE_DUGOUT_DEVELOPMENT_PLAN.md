@@ -242,3 +242,9 @@ Provider quotas and terms can change. Reverify before deployment. This plan does
 Integrated the development-selected cross-season lagged-context goal model after the unchanged retrospective match and player guards passed. See `reports/v4/FINDINGS.md` for all trials, metrics and repeated-confirmation limitations. Fixture headlines show expected goals to two decimals. Player goal/assist and clean-sheet components use the same updated team rates. Refreshes use `freeze_v4.py`; original V1–V3 artifacts remain intact.
 
 Next modelling checkpoint: score the immutable GW6 V4/V3 comparison with `score_v4.py` after final results, then aggregate prospective evidence across multiple gameweeks. Do not claim high accuracy from a single week. Subjective injuries/manager changes have an auditable scenario interface but require timestamped data and separate validation before automatic team-strength changes. Full lineup simulation, model uncertainty and multi-week optimization remain future work. Continue local testing and GitHub updates; no Netlify deployment until explicitly authorized.
+
+## Model V5 update — 11 November 2026
+
+Scored the immutable GW6 forecast and evaluated all completed rounds through GW10. A preregistered 16-candidate match search rejected every structural replacement on GW9–10, so the V4 match architecture remains in production and is refitted with all completed matches. A 12-candidate minutes search promoted ridge 3 / 26-gameweek half-life over ridge 3 / eight-gameweek half-life after a small established-player RMSE and minutes-MAE improvement. See `reports/v5/FINDINGS.md` for complete metrics and limitations.
+
+The GW11 V5 and same-snapshot V4 forecasts are frozen before deadline. Score them with `python score_v5.py` after results are final. Do not retune against GW9–10 again. Netlify remains disconnected.
